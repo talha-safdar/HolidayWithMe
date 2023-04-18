@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">      
+    <head> 
+        <!-- this is the title of the website -->       
+        <title>Confirmation</title> 
+            <meta charset="utf-8"/>
+            <!-- this code ensures a flexible adaptability on different devices -->
+            <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+            <meta name="description" content="An holiday experience based website with pictures" />
+                <!-- this is the icon logo for the title of the website -->
+                <link rel="shortcut icon" type="image/png" href="images/favicon/favicon.png" />
+                <link href="css/style.css" rel="stylesheet" type="text/css" />
+                <link href="css/media-style.css" rel="stylesheet" type="text/css" />  
+    </head>     
+    <body>
+        <!-- the div "outer" and "inner" are used to structure the webpage by keeping the inner contents in static position -->
+        <div class="full-hd"> 
+            <div class="full-hd">
+                <!-- the div "content" includes majorely all the contents of the webpage -->
+                <article id="content">
+                    <!-- the div "logo-container" will contain the the logo name at the top inside <header> element -->
+                    <div id="logo-container">     
+                        <header>
+                            <!-- The title of the website is a hyperlink as when clicked on it it will redirect tot the homepage -->
+                            <!-- sthe span "logo-colour" is used to colour only a specific part of the text -->
+                            <a href="index.html"><h1 class="logo-name">Welcome to <span class="logo-colour">HolidayWithMe</span></h1></a>            
+                        </header>
+                    </div> 
+                    <!-- the nav "menu"/"topnav" is used to include the top navigation bar -->
+                    <div class="nav-container">
+                        <nav id="menu" class="topnav">
+                            <!-- each of the anhcored text will lead the user to another interconnected webpage  -->
+                            <ul id="navigation">
+                                <li><a id="act1" class="active" href="contact.html">Contact</a> </li>
+                                <li><a id="act2" class="active" href="about.html">About</a></li>
+                                <li><a id="act3" class="active" href="gallery.html">Gallery</a></li>
+                                <li><a id="act4" class="active" href="index.html">Home</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+				    <section id="main">
+				    <!-- contents start here -->
+
+                        <header>
+                            <!-- the purpose of the use hr "line" is solely for the presentation -->
+    					   <hr class="line">
+    				    </header>
+                        <h2 class="confirm-title">Thanks for <em>messaging</em> me!</h2>
+                        <h3 class="confirm-subtitle">Below you can see the table plan of where I have been and where I will go</h3>
+                        <div class="main-confirm">
+                            <div class="main-confirm">
+                                <!-- The table element is to create a table -->
+                                <table class="table">
+                                    <!-- The thead element indicates the top part of the table -->
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">City</th>
+                                            <th scope="col">2016</th> 
+                                            <th scope="col">2017</th> 
+                                            <th scope="col">2018</th> 
+                                            <th scope="col">2019</th> 
+                                        </tr>
+                                    </thead>
+                                    <!-- The tbody element indicates the main part of the table -->
+                                    <tbody>
+                                        
+                                        <tr>
+                                            <th scope="row">Rome</th>
+                                            <td colspan="1"></td>
+                                            <td>X</td>
+                                            <td colspan="1"></td>
+                                            <td colspan="1"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">London</th>
+                                            <td colspan="1"></td>      
+                                            <td colspan="1"></td>
+                                            <td colspan="1"></td>
+                                            <td>X</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Paris</th>
+                                            <td colspan="1"></td>
+                                            <td colspan="1"></td>
+                                            <td>X</td>
+                                            <td colspan="1"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Oslo</th>
+                                            <td>X</td>
+                                            <td colspan="1"></td>
+                                            <td colspan="1"></td>
+                                            <td colspan="1"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Jerusalem</th>
+                                            <td colspan="1"></td>
+                                            <td>X</td>
+                                            <td colspan="1"></td>
+                                            <td colspan="1"></td>
+                                        </tr>
+                                    </tbody>
+                                    <!-- The tfoot element indicates the bottom part of the table -->
+                                    <tfoot>
+                                        <tr>
+                                            <th colspan="5">Future holidays</th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Berlin</th>
+                                            <td colspan="4">2021</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Tokyo</th>
+                                            <td colspan="4">2022</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                   
+                        <!-- content End here -->  
+				    </section>       
+                </article>
+                <!-- the footer "footer" includes all the information in the footer -->
+                <footer id="footer">
+                    <!-- the button "up" is used to create a button above the footer to go back up -->    
+                    <a class="up-ref" href="#menu">UP</a>
+                        <!-- this div "site-info" will include anchored texts and buttons inside the footer -->
+                    <div id="site-info">
+                        <!-- the reason of anchoring my name is because it can direct the user to "Contact" webpage -->        
+                        <address class="alignleft footText">Created by <a class= "link1" href="contact.html" title="Click to contact me">Tellha Safdar</a></address>
+                        <p class="aligncenter footText">Last modified on <strong>23/11/2020</strong></p>
+                        <!-- the purpose of p "alignright" is to keep the an appropriate equidistance between the contents in the footer -->
+                        <address class="alignright footText"><a class="btn footText" href="mailto:T.Safdar@edu.salford.ac.uk">Email me</a></address>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>      
+</html>

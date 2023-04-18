@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">      
+    <head> 
+        <!-- this is the title of the website -->       
+        <title>Contact</title> 
+            <meta charset="utf-8"/>
+            <!-- this code ensures a flexible adaptability on different devices -->
+            <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+            <meta name="description" content="An holiday experience based website with pictures" />
+                <!-- this is the icon logo for the title of the website -->
+                <link rel="shortcut icon" type="image/png" href="images/favicon/favicon.png" />
+                <link rel="apple-touch-icon" href="images/favicon/favicon.png">
+                <link href="css/style.css" rel="stylesheet" type="text/css" />
+                <link href="css/media-style.css" rel="stylesheet" type="text/css" /> 
+    </head>     
+    <body>
+        <!-- the div "outer" and "inner" are used to structure the webpage by keeping the inner contents in static position -->
+        <div class="full-hd"> 
+            <div class="full-hd">
+                <!-- the div "content" includes majorely all the contents of the webpage -->
+      		    <main id="content">
+                    <!-- the div "logo-container" will contain the the logo name at the top inside <header> element -->
+                    <div id="logo-container">       
+                        <header>
+                            <!-- The title of the website is a hyperlink as when clicked on it it will redirect tot he homepage -->
+                            <!-- sthe span "logo-colour" is used to colour only a specific part of the text -->
+                            <a href="index.html"><h1 class="logo-name">Welcome to <span class="logo-colour">HolidayWithMe</span></h1></a>            
+                        </header>
+                    </div> 
+                    <!-- the nav "menu"/"topnav" is used to include the top navigation bar -->
+                    <div class="nav-container">
+                        <nav id="menu" class="topnav">
+                            <!-- each of the anhcored text will lead the user to another interconnected webpage  -->
+                            <ul id="navigation">
+                                <li><a id="contact-on" class="active-now" href="contact.html">Contact</a> </li>
+                                <li><a id="act2" class="active" href="about.html">About</a></li>
+                                <li><a id="act3" class="active" href="gallery.html">Gallery</a></li>
+                                <li><a id="act4" class="active" href="index.html">Home</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <section id="main">
+                    <!-- contents start here -->
+
+                        <header>
+                            <!-- the purpose of the use hr "line" is solely for the presentation -->
+                            <hr class="line">
+                        </header>
+                        <h1 class="contact-title">Contact me</h1>
+                        <div class="main-contact">
+                            <div class="main-contact">
+                                <!-- This form is used to send information to the author the method "get" is used only for illustrative purpose-->
+                                <form action="confirm.html" method="post">
+                                    <!-- The label element is used to give a senseful name to the field -->
+                                    <label for="full-name">Your full name</label>
+                                    <!-- The type of the input is only text, max length is of 30 characters, it must be filled up -->
+                                    <!-- The title is shown when the user inputs wron values, the pattern defines what type of values can be input -->
+                                    <!-- The placeholder will be shown when the textbox is empty (to give explcit indication) -->
+                                        <input type="text" id="full-name" name="full-name"  maxlength="30" required="required" title="Please enter an appropriate name" pattern="([A-zÀ-ž\s]){2,20}" placeholder="Type your full name here..">
+                                    <label for="email">Your email</label>
+                                        <input type="email" id="email" name="email"  maxlength="30" required="required" title="Please enter an ppropriate email adress" placeholder="Type your email here..">
+                                    <label for="country">Country</label>
+                                    <!-- The select element is used to create a drop-down list menu -->
+                                        <select id="country" name="country" required>
+                                            <!-- The opion element inlucde the avaialble option -->
+                                            <option value="">Choose</option>
+                                            <option value="united-kingdom">United Kingdom</option>
+                                            <option value="european">Europe</option>
+                                            <option value="usa">USA</option>
+                                            <option value="canada">Canada</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                        <label for="message">Type here your message</label>
+                                        <textarea id="message" name="message" maxlength="300" required="required" placeholder="Type your message here.."></textarea>
+                                        <input type="submit" value="Submit" name="submit_form" title="Submit message">
+                                </form>
+                            </div>	        
+                        </div>
+                      <div class="space-contact"></div>
+
+                <!-- content End here -->  
+                    </section>       
+      		    </main>
+                <!-- the footer "footer" includes all the information in the footer -->
+                <footer id="footer">
+                    <!-- the button "up" is used to create a button above the footer to go back up -->    
+                    <a class="up-ref" href="#menu">UP</a>
+                        <!-- this div "site-info" will include anchored texts and buttons inside the footer -->
+                     <div id="site-info">
+                        <!-- the reason of anchoring my name is because it can direct the user to "Contact" webpage -->        
+                        <address class="alignleft footText">Created by <a class= "link1" href="contact.html" title="Click to contact me">Tellha Safdar</a></address>
+                        <p class="aligncenter footText">Last modified on <strong>23/11/2020</strong></p>
+                        <!-- the purpose of p "alignright" is to keep the an appropriate equidistance between the contents in the footer -->
+                        <address class="alignright footText"><a class="btn footText" href="mailto:T.Safdar@edu.salford.ac.uk">Email me</a></address>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>      
+</html>

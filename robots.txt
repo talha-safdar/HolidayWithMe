@@ -1,0 +1,7 @@
+# robots.txt for http://agd642.poseidon.salford.ac.uk/ 
+
+user-agent: *
+Disallow: /images/
+Disallow: /confirm.html/
+
+sitemap: http://agd642.poseidon.salford.ac.uk/sitemap.xml/

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">      
+    <head> 
+        <!-- this is the title of the website -->       
+        <title>HolidayWithMe</title> 
+        	<meta charset="utf-8"/>
+            <!-- this code ensures a flexible adaptability on different devices -->
+        	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        	<meta name="description" content="An holiday experience based website with pictures" />
+                <!-- this is the icon logo for the title of the website -->
+        		<link rel="shortcut icon" type="image/png" href="images/favicon/favicon.png" />
+                <link href="css/style.css" rel="stylesheet" type="text/css" />
+                <link href="css/media-style.css" rel="stylesheet" type="text/css" /> 
+    </head>     
+    <body>
+        <!-- the div "outer" and "inner" are used to structure the webpage by keeping the inner contents in static position -->
+    	<div class="full-hd"> 
+        	<div class="full-hd">
+                <!-- the div "content" includes majorely all the contents of the webpage -->
+        		<main id="content">
+                    <!-- the div "logo-container" will contain the the logo name at the top inside <header> element -->
+        			<div id="logo-container">       
+    					<header>
+                            <!-- sthe span "logo-colour" is used to colour only a specific part of the text -->
+        					<a href="index.html"><h1 class="logo-name home">Welcome to <span class="logo-colour">HolidayWithMe</span></h1></a>       
+            			</header>
+        			 </div> 
+                    <!-- the nav "menu"/"topnav" is used to include the top navigation bar -->
+                    <div class="nav-container">
+         			    <nav id="menu" class="topnav">
+                            <!-- each of the anhcored text will lead the user to another interconnected webpage  -->
+              			    <ul id="navigation">
+                                <li><a id="act1" class="active" href="contact.html">Contact</a> </li>
+              			        <li><a id="act2" class="active" href="about.html">About</a></li>
+              			        <li><a id="act3" class="active" href="gallery.html">Gallery</a></li>
+              			        <li><a id="home-on" class="active-now" href="index.html">Home</a></li>
+                            </ul>
+                        </nav>  
+                    </div>          
+    				<article id="main">		                                        
+                    <!-- contents start here -->	
+
+    					<header>
+                            <!-- the purpose of the use hr "line" is solely for the presentation -->
+        					<hr class="line">
+            					<h2 class="title-main">The most beautiful pictures I have ever taken: </h2>
+        				</header>
+
+    					<div>
+                            <!-- the p "paragraph1" is used to briefly describe the image attached beside -->
+            				<p class="paragraph1 indPara"> 
+                                <!-- the use of strong "altbold" stands out the name of the picture -->
+            					<strong class="altbold" lang="it">- Altare Della Patria</strong>, built between 1885 and 1935 is one of the fantastic monuments based in Rome, Piazza Venezia, its importance is because it symbolises the Roman empire and the Italian Renassiacment. It also resisted many wars from which, world war 1 and world war 2. It was entitled to Vittorio Emanuele II and all this was designed by archaeologists Ferrari, Piacentini and then Sacconi who was the one to complete this work. Nowadays this monument is also seen as a symbol of liberty and secularism, visitors can go in the halls and on the terrace. 
+            				</p>
+                                <!-- the img "altare" displays an image beside the text above -->
+              					<img class="altare" src="images/photos/rome/altare-della-patria.jpg" alt="Picture of Altare Della Patria" title="Altare Della Patria - Rome" width="806" height="453" />
+            			</div>
+            			<div>
+                            <!-- this hr "space-paragraph" is used to separate two paragraphs in fact it is set to invisble -->
+                            <div class="space-paragraph"></div>
+
+                				<p class="paragraph2 indPara">
+                                    <!-- the use of strong "lonbold" stands out the name of the picture --><strong class="lonbold">- Tower Bridge</strong>, built between 1886 and 1894  and opened by the prince Edwards, who used to pull the lever to open up the bridge to allow the steam-boats and other boats of similar dimension to go through. As you can also see the style of the Tower Bridge is Neo-Gothic, this is due to the French influence during the Victorian era in London. 
+                                </p>
+                                    <!-- the img "tower" displays an image beside the text above -->
+                    				<img class="tower" src="images/photos/london/london.jpg" alt="Picture of Tower Bridge" title="Tower Bridge - London" width="501" height="271" />
+    					    <div class="space-paragraph-bottom"></div> 
+            			</div>     
+
+                    <!-- content End here -->  
+    				</article>       
+        		</main>
+                <!-- the footer "footer" includes all the information in the footer -->
+                <footer id="footer">
+                    <!-- the button "up" is used to create a button above the footer to go back up -->    
+                    <a class="up-ref" href="#menu">UP</a>
+                         <!-- this div "site-info" will include anchored texts and buttons inside the footer -->
+                    <div id="site-info">
+                        <!-- the reason of anchoring my name is because it can direct the user to "Contact" webpage -->        
+                        <address class="alignleft footText">Created by <a class= "link1" href="contact.html" title="Click to contact me">Tellha Safdar</a></address>
+                        <p class="aligncenter footText">Last modified on <strong>23/11/2020</strong></p>
+                        <!-- the purpose of p "alignright" is to keep the an appropriate equidistance between the contents in the footer -->
+                        <address class="alignright footText"><a class="btn footText" href="mailto:T.Safdar@edu.salford.ac.uk">Email me</a></address>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>      
+</html>

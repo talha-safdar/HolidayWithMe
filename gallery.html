@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">      
+    <head> 
+        <!-- this is the title of the website -->       
+        <title>Gallery</title> 
+            <meta charset="utf-8"/>
+            <!-- this code ensures a flexible adaptability on different devices -->
+            <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        	<meta name="description" content="A holiday experience based website with pictures" />
+                <!-- this is the icon logo for the title of the website -->
+        	    <link rel="shortcut icon" type="image/png" href="images/favicon/favicon.png" />
+                <link rel="apple-touch-icon" href="images/favicon/favicon.png">
+                <link href="css/style.css" rel="stylesheet" type="text/css" />
+                <link href="css/media-style.css" rel="stylesheet" type="text/css" /> 
+    </head>     
+    <body>
+        <!-- the div "outer" and "inner" are used to structure the webpage by keeping the inner contents in static position -->
+    	<div class="full-hd"> 
+        	<div class="full-hd">
+                <!-- the div "content" includes majorely all the contents of the webpage -->    	
+                <main id="content">
+                    <!-- the div "logo-container" will contain the the logo name at the top inside <header> element -->
+                    <div id="logo-container">    
+    				    <header>
+                            <!-- The title of the website is a hyperlink as when clicked on it it will redirect tot he homepage -->
+                            <!-- sthe span "logo-colour" is used to colour only a specific part of the text -->
+                            <a href="index.html"><h1 class="logo-name">Welcome to <span class="logo-colour">HolidayWithMe</span></h1></a>       
+                        </header>
+                    </div> 
+                    <!-- the nav "menu"/"topnav" is used to include the top navigation bar -->
+                    <div class="nav-container">
+                        <nav id="menu" class="topnav">
+                            <!-- each of the anhcored text will lead the user to another interconnected webpage  -->
+                            <ul id="navigation">
+                                <li><a id="act1" class="active" href="contact.html">Contact</a> </li>
+                                <li><a id="act2" class="active" href="about.html">About</a></li>
+                                <li><a id="gallery-on" class="active-now" href="gallery.html">Gallery</a></li>
+                                <li><a id="act4" class="active" href="index.html">Home</a></li>
+                            </ul>
+                        </nav>           
+                    </div> 
+                    <div id="main">                    
+    				<!-- contents start here -->
+                        
+    				    <header>
+                            <!-- the purpose of the use hr "line" is solely for the presentation -->
+        				    <hr class="line">
+                        </header>        
+                        <div class="top-space"></div>
+                        <h2 class="gallery-title">Gallery</h2>
+                            <!-- This heading is sorrounded by two lines with a gap at the start -->
+                            <p class="rome-title">&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&nbsp;Rome&nbsp;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;</p>             
+                                <figure class="rome-pics"> 
+                                    <div class="column">
+                                        <!-- Each image has its own caption -->
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/altare-della-patria.jpg" alt="Picture of Altare della Patria" width="806" height="453">
+                                            <figcaption lang="it">Altare della Patria</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/rome6.jpg" alt="Picture of Roman structures" width="652" height="489">
+                                            <figcaption>Roman structure</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/colosseum1.jpg" alt="Picture of colosseum" width="870" height="489">
+                                            <figcaption>Colosseum</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/rome7.jpg" alt="Picture of Roman columns" width="870" height="489">
+                                            <figcaption>Roman columns</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/rome5.jpg" alt="Picture of Roman arch" width="652" height="489">
+                                            <figcaption>Roman arch</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/campidoglio.jpg" alt="Picture of Campidoglio" width="652" height="489">
+                                            <figcaption lang="it">Campidoglio</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/fountain-of-trevi.jpg" alt="Picture of the Fountain of Trevi" width="652" height="489"> 
+                                            <figcaption>Fountain of Trevi</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/church.jpg" alt="Picture of an artistic church" width="870" height="489">   
+                                            <figcaption>Painting in a Church</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="column">
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/altare-della-patria1.jpg" alt="Picture of Altare della Patria" width="652" height="489">
+                                            <figcaption lang="it">Altare della Patria</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/colosseum.jpg" alt="Picture of Panorama view" width="652" height="489">
+                                            <figcaption>Panorama view</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/rome4.jpg" alt="Picture of piazza Venezia" width="652" height="489">
+                                            <figcaption lang="it">Piazza Venezia</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/san-pietro2.jpg" alt="Picture of San Pietro Basilica" width="652" height="489">
+                                            <figcaption lang="it">San Pietro Basilica</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/san-pietro1.jpg" alt="Picture of sculpture inside San Pietro Basilica" width="652" height="489">
+                                            <figcaption>Inside San Pietro Basilica</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/san-pietro.jpg" alt="Picture of inside San Pietro Basilica" width="652" height="489">
+                                            <figcaption>Inside San Pietro Basilica</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/rome3.jpg" alt="Picture of a Roman Church" width="652" height="489">
+                                            <figcaption>Antique Roman Church</figcaption>
+                                        </figure>
+                                    </div>  
+                                    <div class="column">
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/rome2.jpg" alt="Picture of antique Roman wall" width="652" height="489">
+                                            <figcaption>Antique structure</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/palazzo-venezia-1.jpg" alt="Picture of Palazzo Venezia" width="652" height="489">
+                                            <figcaption lang="it">Palazzo Venezia</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/rome1.jpg" alt="Picture of panorama view of Rome" width="652" height="489">
+                                            <figcaption>Panorama view</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/palazzo-venezia.jpg" alt="Picture of Palazzo Venezia from outside" width="1008" height="756">
+                                            <figcaption lang="it">Palazzo Venezia</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/church1.jpg" alt="Picture of inside San Pietro Basilica" width="366" height="276">
+                                            <figcaption>Inside San Pietro Basilica</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/rome8.jpg" alt="Picture of antique structure" width="652" height="489">
+                                            <figcaption>Antique structure</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/rome/panorama.jpg" alt="Picture of panroama view of Rome" width="870" height="489">
+                                            <figcaption>Panorama view</figcaption>
+                                        </figure>
+                                    </div>              
+                                </figure>       
+                          
+                            <p class="london-title">&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&nbsp;London&nbsp;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;</p>
+                                <figure class="london-pics">
+                                    <div class="column">
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/cathedral1.jpg" alt="Picture of the cathedral of St. Paul's Cathedral" width="648" height ="432">
+                                            <figcaption>St. Paul's Cathedral</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/castle.jpg" alt="Picture of a castle in London" width="648" height ="432">
+                                            <figcaption>Castle</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/castle2.jpg" alt="Picture of a castle from outside in London" width="648" height ="432">
+                                            <figcaption>Castle</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/castle3.jpg" alt="Picture of an entrance to a castle in London" width="648" height ="432">
+                                            <figcaption>Castle entrance</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/cathedral.jpg" alt="Picture of the cathedral of St. Paul's Cathedral" width="648" height ="432">
+                                            <figcaption>St. Paul's Cathedral</figcaption>  
+                                        </figure>           
+                                    </div>
+                                    <div class="column">
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/london.jpg" alt="Picture of Tower bridge" width="501" height ="271">
+                                            <figcaption>Tower bridge</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/london1.jpg" alt="Picture of a statue" width="648" height ="432">
+                                            <figcaption>Statue</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/panorama.jpg" alt="Picture of a panorama view" width="648" height ="432">
+                                            <figcaption>Panorama view</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/river.jpg" alt="Picture of river Thames" width="648" height ="432">
+                                            <figcaption>River Thames</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/river2.jpg" alt="Picture of London transports in line on a bridge" width="800" height ="450">
+                                            <figcaption>Queued London Transports</figcaption> 
+                                        </figure>       
+                                    </div>  
+                                    <div class="column">
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/cathedral2.jpg" alt="Picture of entrance of the St. Paul's Cathedral" width="648" height ="432">
+                                            <figcaption>Entrance of the St. Paul's Cathedral</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/tower-bridge2.jpg" alt="Picture of a Tower bridge" width="800" height ="450">
+                                            <figcaption>Tower bridge</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/cathedral5.jpg" alt="Picture of a monument outside St. Paul's Cathedral" width="450" height ="338">
+                                            <figcaption>Statue of St. Paul's Cathedral</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/tower-bridge.jpg" alt="Picture of Tower bridge splitting up" width="648" height ="432">
+                                            <figcaption>Tower bridge opening up</figcaption>
+                                        </figure>
+                                        <figure>
+                                        <img class="pic" src="images/photos/london/cathedral4.jpg" alt="Picture of the panorama outside St. Paul's Cathedral" width="800" height ="450">
+                                            <figcaption>Outside St. Paul's Cathedral</figcaption>
+                                        </figure>
+                                    </div>              
+                                </figure>  
+                        <!-- This div "bottom-space" ensures an appropriate spacce between the footer and the contents above it -->
+                        <div class="bottom-space"></div>   
+
+                        <!-- content End here -->              
+                    </div>
+                </main>           	
+                <!-- the footer "footer" includes all the information in the footer -->
+                <footer id="footer">
+                    <!-- the button "up" is used to create a button above the footer to go back up -->    
+                    <a class="up-ref" href="#menu">UP</a>
+                         <!-- this div "site-info" will include anchored texts and buttons inside the footer -->
+                    <div id="site-info">
+                        <!-- the reason of anchoring my name is because it can direct the user to "Contact" webpage -->        
+                        <address class="alignleft footText">Created by <a class= "link1" href="contact.html" title="Click to contact me">Tellha Safdar</a></address>
+                        <p class="aligncenter footText">Last modified on <strong>23/11/2020</strong></p>
+                        <!-- the purpose of p "alignright" is to keep the an appropriate equidistance between the contents in the footer -->
+                       <address class="alignright footText"><a class="btn footText" href="mailto:T.Safdar@edu.salford.ac.uk">Email me</a></address>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>      
+</html>

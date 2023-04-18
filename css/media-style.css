@@ -1,0 +1,521 @@
+/* HOMEPAGE */
+
+@media (max-width: 280px){ 
+    #logo-container {
+        position: relative; 
+        margin-top: 10px; /* to prevent white space between the top end and the top side of the navigtion bar */  
+        text-align: center;         
+	}
+    
+    .nav-container {
+        padding-left: 10%;
+        padding-right: auto;
+    }
+
+    #navigation {
+        justify-content: center;
+    }
+
+    .topnav {
+    	margin-right: 30px;
+    	margin-left: -36px;
+    }
+
+    .topnav a {
+        font-size: 8px;
+    }  
+
+    .nav-container {
+        margin-left: -17%;
+        margin-top: -150px;
+    }
+
+
+    .logo-name {
+        font-size: 23px;
+    }
+
+    .title-main {
+    	text-align: center;
+    	margin-left: 0px;
+    	width: 100%;
+        font-size: 20px;
+    }
+        
+    #site-info .alignleft {
+        font-size: 12px;
+    }
+    
+    #site-info .aligncenter {
+        font-size: 12px;
+    }
+    
+    #site-info .alignright {
+        font-size: 12px;
+    }
+    
+    #site-info .btn {
+        font-size: 12px;
+    }
+    
+    .up-ref {
+        font-size: 14px;
+    }
+
+    .line { /* to adjust space between the logo name and the body */
+        margin-top: 90px;
+        margin-bottom: -30px;
+    }
+}
+
+@media (min-width: 281px) and (max-width: 375px) {    
+
+    #logo-container {
+        text-align: center;
+    }
+
+    .logo-name {
+        font-size: 30px;
+    }
+
+    .title-main {
+    	text-align: center;
+        font-size: 25px;
+    }
+    
+    #site-info .btn {
+        background-color: #6C6C6C;
+        color: white;
+        border: none;
+        padding: 10px 15.9px;
+        cursor: pointer;
+    }
+
+    #site-info .alignleft {
+        font-size: 12px;
+    }    
+
+    #site-info .aligncenter {
+        font-size: 12px;
+    }    
+
+    #site-info .alignright {
+        font-size: 12px;
+    }    
+
+    #site-info .btn {
+        font-size: 12px;
+    }
+
+    .up-ref {
+        font-size: 15px;
+    }    
+    
+    .topnav a {        
+        font-size: 9px;
+    }  
+
+    .topnav {
+    	width: 100%;
+    	margin-right: 43px;
+    	margin-left: -36px;
+    }
+    
+    li {
+        width: 180%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 420px) {
+	#main .paragraph1 {  
+        margin-right: 10%;
+        text-align: justify;   
+        font-size: 20px;
+    }    
+
+    #main .paragraph2 {  
+    	margin-right: 10%;
+        text-align: justify;  
+        font-size: 20px;
+    }
+
+    .altbold {
+    	font-size: 22px;
+    }
+
+    .lonbold {
+    	font-size: 22px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 420px) {
+
+    .altare {
+        margin-right: -0.5%;
+    }
+
+    .tower {
+        margin-left: -0.5%;
+    }
+
+    #site-info .alignleft {
+        font-size: 16px;
+    }
+    
+    #site-info .aligncenter {
+        font-size: 16px;
+    }
+    
+    #site-info .alignright {
+        font-size: 16px;
+    }
+    
+    #site-info .btn {
+        font-size: 16px;
+    }    
+
+    .up-ref {
+        font-size: 20px;
+    }
+
+    .topnav a{
+        font-size: 13px;
+    }
+
+    .nav-container {
+        margin-left: -4%;
+        height: auto;
+    }    
+}
+
+@media (max-width: 600px) {   
+    ul {
+        display: inline-block;
+        width:100%;
+        text-align:center;  
+    }
+
+    li {
+        width: 300px;
+        margin: auto;
+    }
+
+    #logo-container {
+        text-align: center;
+        margin-left: 10%;
+        padding-right:  10px;
+    }
+    
+    .title-main {
+        text-align: center;
+        margin-right: 5%;
+        font-size: 33px;
+    }
+  
+}
+
+@media (max-width: 770px){
+    body {
+        background-image: url('../images/background/church.png'); 
+        background-attachment: fixed;
+    }
+
+    #logo-container {
+        padding-top: 20px;
+    }
+
+    .alignleft {
+        padding: 0px;
+    }
+
+
+    .aligncenter {
+    padding-top: 0px;
+    margin-bottom: 20px;
+    }
+    
+    #site-info {
+        position: relative;
+        display: inline-grid;
+    }
+
+    .footText {
+        font-size: 20px;
+    }
+
+    #site-info .btn {
+        font-size: 20px;
+    }
+}
+
+
+@media all and (min-width: 900px) {
+    .topnav a.active:hover { /* this will change the aspect of the content when laying the cursor on the content */    
+        color: yellow; 
+        transition: 0.3s; /* it the time of how long it takes to transitionate the animation */
+        padding-bottom: 5%;
+        border-radius: 30px; /* the border of the content are rounded when clicking on the content */
+    }
+
+    #logo-container {
+    	position: absolute; /* the use of psotion absolute here guarantees that the content only moves depending to parent position */
+    	margin-top: 40px; /* it pushes the content from top to bottom */
+    	margin-left: 56px; /* it pushes the content from left to right */
+    }
+
+    .logo-name {
+    	font-size: 50px; /* ths is the font size assigned in px  */
+    	color: #FFFFFF; /* it gives a white colour to the content  */ 
+	}
+}
+
+@media (max-width: 1722px){
+
+    body {
+        background-image: url('../images/background/church.png');
+        background-attachment: fixed;
+    }
+
+    .altare {
+        max-width: 100%;
+        margin-left: 640px;
+        margin-top: 0px;
+        margin-bottom: 90px;
+    }
+    
+    .space-paragraph {
+        height: auto;
+        margin-top: 40%;   
+        visibility: hidden;
+    }
+
+    #main .paragraph2 {
+        padding-left: 193px;
+        margin-left: -172px;
+        margin-top: -23px;
+        width: 90%;
+        padding-right: 327px;
+    }
+    
+    .tower {
+        max-width: 100%;
+        border: 3px solid white;
+        margin-top: 11px;
+        border-radius: 18px;
+    }
+}
+
+@media (min-width: 1722px){    
+    #main .paragraph1 {
+        color: white;
+        margin-left: 27px;
+        font-size: 30px;
+        padding-left: 0px;
+        margin-right: 1000px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }    
+ 
+    .tower {
+        max-width: 100%;
+        border: 3px solid white;
+        margin-top: -200px;
+        border-radius: 18px;
+        margin-left: 42px;
+    }
+
+    #main .paragraph2 {
+        color: white;
+        float: right;
+        margin-top: -217px;
+        padding-right: 0px;
+        padding-top: 10px;
+        font-size: 30px;
+        padding-left: 0px;
+        margin-right: 58px;
+        margin-left: 594px;
+    }
+}
+
+@media (max-width: 1920px) and (min-width: 1722px) {
+    .altare {
+        margin-top: -400px;
+    }   
+} 
+
+@media (min-width: 1920px) {
+    html, body {
+        background: #262626;
+    }
+
+    .full-hd {
+        background-image: url('../images/background/church.png'); 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        max-width: 1920px;
+        margin: auto;
+    }
+
+    .altare {
+        max-width: 100%;
+        margin-top: -325px;
+        float: right;
+        height: auto;
+        border-radius: 18px;
+        border: 3px solid white;
+        margin-right: 158px;
+    }    
+}
+
+/* HOMEPAGE */
+
+
+
+
+/* ----------------------------------------------- */
+
+
+
+
+/* ABOUT */
+
+@media (max-width: 375px) {
+    .title-about {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-all {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+    .about-me-third {
+        padding-bottom: 33%;
+    }        
+}
+
+@media  (min-width: 801px) and (max-width: 1400px) {
+    .about-all {
+		min-width: 30%;
+        margin: 1%; 
+    }
+
+    .about-me-third {
+        padding-bottom: 33%;        
+    }
+
+    .about-me-first {
+        margin-left: 3.2%;
+    }
+}
+
+/* ABOUT */
+
+
+
+
+/* ----------------------------------------------- */
+
+
+
+
+/* GALLERY */
+
+@media (max-width: 800px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;      
+    }   
+
+    .rome-pics {
+    	width: fit-content;
+    	margin: 0%;
+    }
+
+    .london-pics {
+    	margin-left: 0%;
+    	margin-right: 0%;
+    }
+}
+
+@media (max-width: 375px) {
+    .gallery-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .rome-title {
+		font-size: 20px;
+    }
+    
+    .london-title {
+        font-size: 20px;
+    }
+}
+
+/* GALLERY */
+
+
+
+
+/* ----------------------------------------------- */
+
+
+
+
+/* CONTACT */
+
+@media (max-width: 375px) {
+    .contact-title {
+        font-size: 30px;
+    }
+}
+
+/* CONTACT */
+
+
+
+
+/* ----------------------------------------------- */
+
+
+
+
+/* CONFIRM */
+
+@media (max-width: 530px) {
+    .table {
+    	font-size: 10px;
+    }
+    
+    .confirm-title {
+        font-size: 30px;
+    }
+
+    .confirm-subtitle {
+        font-size: 18px;
+    }
+    .table {
+        width: 100%;
+        margin: 0px auto 30px auto;
+	}
+} 
+
+@media (max-width: 300px) {
+    .table {
+        margin-left: -33px;
+    }
+}
+
+@media (max-width: 265) {
+    .table {
+        margin-left: -66px;
+    }
+}
+
+/* CONFIRM */

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">      
+    <head> 
+        <!-- this is the title of the website -->       
+        <title>About</title>
+            <meta charset="utf-8"/>
+            <!-- this code ensures a flexible adaptability on different devices -->
+            <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+      	    <meta name="description" content="An holiday experience based website with pictures" />
+                <!-- this is the icon logo for the title of the website -->
+                <link rel="shortcut icon" type="image/png" href="images/favicon/favicon.png" />
+                <link rel="apple-touch-icon" href="images/favicon/favicon.png">
+                <link href="css/style.css" rel="stylesheet" type="text/css" />
+                <link href="css/media-style.css" rel="stylesheet" type="text/css" /> 
+    </head>     
+    <body>
+        <!-- the div "outer" and "inner" are used to structure the webpage by keeping the inner contents in static position -->
+        <div class="full-hd"> 
+            <div class="full-hd">
+                <!-- the div "content" includes majorely all the contents of the webpage -->
+      		    <main id="content" class="abcontent">
+                    <!-- the div "logo-container" will contain the the logo name at the top inside <header> element -->
+                    <div id="logo-container">      
+                        <header>
+                            <!-- The title of the website is a hyperlink as when clicked on it it will redirect tot he homepage -->
+                            <!-- sthe span "logo-colour" is used to colour only a specific part of the text -->
+                            <a href="index.html"><h1 class="logo-name">Welcome to <span class="logo-colour">HolidayWithMe</span></h1></a>           
+          		        </header>
+      		        </div> 
+                    <!-- the nav "menu"/"topnav" is used to include the top navigation bar -->
+                    <div class="nav-container">
+                        <nav id="menu" class="topnav">
+                            <!-- each of the anhcored text will lead the user to another interconnected webpage  -->
+                            <ul id="navigation">
+                                <li><a id="act1" class="active" href="contact.html">Contact</a> </li>
+                                <li><a id="about-on" class="active-now" href="about.html">About</a></li>
+                                <li><a id="act3" class="active" href="gallery.html">Gallery</a></li>
+                                <li><a id="act4" class="active" href="index.html">Home</a></li>
+                            </ul>
+                        </nav> 
+                    </div>
+  	                 <div id="main">
+  	                 <!-- contents start here -->
+  				        
+                        <header>
+                            <!-- the purpose of the use hr "line" is solely for the presentation -->
+                            <hr class="line">
+                        </header>
+          	            <article id="container-about">
+                            <!-- Th e use of double divs is due to the fact of creating flashcards -->
+                            <div class="first-about">                                              
+                                <h2 class="title-about">About me</h2>         
+                                <div class="about-me-first about-all">
+                                    <div class="about-me-first1">      
+                                        <img class="img" src="images/photos/me/front.jpg" alt="Picture of me in front of St. Paul's Cathedral" width="900" height="900">      
+                                            <p class="desc abDesc">  
+                                                I am Tellha Safdar and I am a student at University of Salford, currently studying Computer Science with Cyber Security. This interests me because I wanted to develop a new innovative security layer system online, which would ensure the safety against cyber-attacks. In my spare time I like to read books and staying up to date with the latest technology. Moreover, I also like to travel, in fact last year in summer I had travelled to Rome and London, two of the most densely populated cities.
+                                            </p>       
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="about-me-second about-all">
+                                    <div class="about-me-second1">
+                                        <img class="img1" src="images/photos/me/profile.jpeg" alt="Picture of me on the bridge in London" width="900" height="899"> 
+                                            <p class="desc1 abDesc">  
+                                                During my time in London, I found out many things about the lifestyle in London and the monuments that surround this huge city. First of all, it was a very busy city, I had seen many people walking around in a hurry with uniforms and briefcases. Secondly, London eye, which is an observation wheel, could go so high, from where you could have a wide view of panorama, the most exciting thing was to be able to see the big ben from the top. Lastly, the thing that impressed me the most was how the city is a mixture of different ethnicities, which was very cool.
+                                            </p>       
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="about-me-third about-all">
+                                    <div class="about-me-third1">
+                                        <img class="img2" src="images/photos/me/shot.jpeg" alt="Picture of me at beach near Rome" width="752" height="752">
+                                            <p class="desc2 abDesc">  
+                                                Going to Rome, was one of my best experience as I love visiting antique monuments that regard the Roman empire. When I firstly have been in Rome I rushed to go to visit the Colosseum, which is the main symbol of the Roman empire, I was surprised how a monument built so many years ago is still standing. Another thing that I liked about Rome is that you feel like you are in two different eras at the same time as wherever you go around the city you can easily find ancient architectures. Regarding the weather, is beautiful as most of the times is sunny and the sea is not even far away. 
+                                            </p>       
+                                    </div>
+                                </div>
+                            </div>
+                        </article>                     
+                      
+                        <!-- content End here -->
+  				    </div>       
+      		    </main>
+                <!-- the footer "footer" includes all the information in the footer -->
+                <footer id="footer" class="abfooter">
+                    <!-- the button "up" is used to create a button above the footer to go back up -->    
+                <a class="up-ref" href="#menu">UP</a>
+                    <!-- this div "site-info" will include anchored texts and buttons inside the footer -->
+                    <div id="site-info">
+                        <!-- the reason of anchoring my name is because it can direct the user to "Contact" webpage -->        
+                        <address class="alignleft footText">Created by <a class= "link1" href="contact.html" title="Click to contact me">Tellha Safdar</a></address>
+                        <p class="aligncenter footText">Last modified on <strong>23/11/2020</strong></p>
+                        <!-- the purpose of p "alignright" is to keep the an appropriate equidistance between the contents in the footer -->
+                        <address class="alignright footText"><a class="btn footText" href="mailto:T.Safdar@edu.salford.ac.uk">Email me</a></address>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>      
+</html>
